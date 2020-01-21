@@ -14,7 +14,8 @@
     "nodemailer": "^6.4.2"
   },
   "scripts": {
-    "dev:server": "nodemon src/server"
+    "dev:server": "nodemon src/server",
+    "dev:queue": "nodemon src/queue"
   },
   "repository": {
     "type": "git",
