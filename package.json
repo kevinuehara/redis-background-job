@@ -1,0 +1,26 @@
+{
+  "name": "redis-background-job",
+  "version": "1.0.0",
+  "description": "Using Redis, Bull and NodeJS to create an simple queue of jobs",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev:server": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinuehara/redis-background-job.git"
+  },
+  "keywords": [],
+  "author": "Kevin Uehara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinuehara/redis-background-job/issues"
+  },
+  "homepage": "https://github.com/kevinuehara/redis-background-job#readme"
+}
